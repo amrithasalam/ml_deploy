@@ -33,4 +33,4 @@ def predict():
 # Main block to run the application
 if __name__ == "__main__":
     # Run the app on the default port 5000 in debug mode
-    app.run(debug=True)
+    app.run(host = '0.0.0.0', port = 5000)
