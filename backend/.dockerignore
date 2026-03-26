@@ -1,0 +1,4 @@
+irisenv/
+*.pyc
+__pycache__/
+.git
