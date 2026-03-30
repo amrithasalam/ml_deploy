@@ -51,7 +51,7 @@ function App() {
       padding: '40px',
       fontFamily: 'Arial, sans-serif',
     }}>
-      <h1>Iris Flower Species Prediction</h1>
+      <h1>Iris Fish Species Prediction</h1>
       <form onSubmit={handlePredict}>
         {['sepalLength', 'sepalWidth', 'petalLength', 'petalWidth'].map((field) => (
             <div key={field} style={{ marginBottom: '15px' }}>
