@@ -10,7 +10,7 @@ fish_class = ['setosa', 'versicolor' ,'virginica']
 
 
 
-@app.route("/", methods=['GET'])
+@app.route("/", methods=['GET']) #url
 def hello_api():
     """Returns a simple JSON greeting."""
     return jsonify(message="Hello, World! This is a Flask API endpoint.")

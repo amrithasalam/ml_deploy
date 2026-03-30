@@ -29,7 +29,7 @@ function App() {
       parseFloat(formData.petalWidth),
     ];
     try {
-      const response = await fetch('http://34.28.45.181:5000/predict', {
+      const response = await fetch('http://34.121.15.228:5000/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
